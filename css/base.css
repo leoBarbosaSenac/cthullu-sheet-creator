@@ -1,0 +1,62 @@
+/* =========================
+   FONTS
+========================= */
+
+@font-face {
+    font-family: "Cthulhumbus";
+    src: url("../assets/JMH_Cthulhumbus.otf") format("opentype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap");
+
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+/* =========================
+   TOKENS
+========================= */
+
+:root {
+    /* base surfaces — cosmic void, never true black */
+    --color-void: #0a0910;
+    --color-abyss: #17141f;
+    --color-ink: #241f30;
+
+    /* text — aged paper, not white */
+    --color-parchment: #cabfa1;
+    --color-bone: #e4dabd;
+
+    /* the one accent: a sickly, unnatural violet glow */
+    --color-eldritch: #7c5ba6;
+    --color-eldritch-dim: #4d3866;
+
+    /* reserved for danger / madness states, used sparingly */
+    --color-blood: #6b1f1f;
+
+    --font-display: "Cthulhumbus", "Cormorant Garamond", serif;
+    --font-body: "Cormorant Garamond", "Georgia", serif;
+
+    --border-hairline: 1px solid rgba(202, 191, 161, 0.18);
+}
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    min-height: 100vh;
+    background-color: var(--color-void);
+    color: var(--color-parchment);
+    font-family: var(--font-body);
+}
