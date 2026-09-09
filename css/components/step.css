@@ -1,0 +1,16 @@
+.step {
+    display: none;
+    border: 5px solid var(--color-eldritch-dim);
+    min-height: 500px;
+    min-width: 300px;
+    
+}
+
+.step.active {
+    display: block;
+}
+
+.active{
+    display: flex;
+    flex-direction: column;
+}
