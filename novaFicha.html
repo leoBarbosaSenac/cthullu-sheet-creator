@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Call of Cthullu 7E</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/brand-cthulhu-svgrepo-com.svg" class="logo">
+        <h1 class="titulo">O Chamado de Cthullu 7E</h1>
+    </header>
+    <main class="main">
+        <form id="character-form">
+
+            <section class="step active">
+                <h2>Informações básicas</h2>
+
+                <input type="text" id="name" placeholder="Nome do investigador">
+
+                <button type="button" class="next-btn">
+                    Próximo
+                </button>
+            </section>
+
+
+            <section class="step">
+                <h2>Atributos</h2>
+
+                <input type="number" id="strength" placeholder="Força">
+                <input type="number" id="constitution" placeholder="Constituição">
+
+                <button type="button" class="back-btn">
+                    Voltar
+                </button>
+
+                <button type="button" class="next-btn">
+                    Próximo
+                </button>
+            </section>
+
+
+            <section class="step">
+                <h2>Perícias</h2>
+
+                <!-- suas perícias aqui -->
+
+                <button type="button" class="back-btn">
+                    Voltar
+                </button>
+
+                <button type="button" class="next-btn">
+                    Próximo
+                </button>
+            </section>
+
+
+            <section class="step">
+                <h2>Revisão</h2>
+
+                <!-- mostrar dados da ficha -->
+
+                <button type="button" class="back-btn">
+                    Voltar
+                </button>
+
+                <button type="submit">
+                    Criar ficha
+                </button>
+            </section>
+
+        </form>
+    </main>
+    <script type="module" src="js/main.js"></script>
+    </body:>
+
+</html>
